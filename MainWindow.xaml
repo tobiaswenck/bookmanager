@@ -1,0 +1,90 @@
+﻿<Window x:Class="BookManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookManager"
+        mc:Ignorable="d"
+        Title="Book Manager 102" Height="480" Width="854">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="76*"/>
+            <ColumnDefinition Width="441*"/>
+        </Grid.ColumnDefinitions>
+        <Menu HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="854" Grid.ColumnSpan="2">
+            <MenuItem Header="File">
+                <MenuItem Header="_New Book" />
+                <MenuItem Header="_Open.." />
+                <Separator />
+                <MenuItem Header="_Exit" />
+            </MenuItem>
+        </Menu>
+        <GroupBox Grid.Column="1" Header="All Books" HorizontalAlignment="Right" Height="419" Margin="0,20,10,0" VerticalAlignment="Top" Width="402">
+            <DataGrid HorizontalAlignment="Left" AutoGenerateColumns="False" Height="377" Margin="10,10,0,0" VerticalAlignment="Top" Width="370" SelectionChanged="DataGrid_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Title">
+
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="Author">
+
+                    </DataGridTextColumn>
+                    <DataGridComboBoxColumn Header="ISBN">
+
+                    </DataGridComboBoxColumn>
+                    <DataGridComboBoxColumn Header="Pagination">
+
+                    </DataGridComboBoxColumn>
+                    <DataGridTextColumn Header="Verlag">
+
+                    </DataGridTextColumn>
+                    <DataGridComboBoxColumn Header="Price">
+
+                    </DataGridComboBoxColumn>
+                    <DataGridComboBoxColumn Header="Date">
+
+                    </DataGridComboBoxColumn>
+                    <DataGridCheckBoxColumn Header="Empfehlung">
+
+                    </DataGridCheckBoxColumn>
+
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+        <GroupBox Grid.ColumnSpan="2" Header="Selected Book" HorizontalAlignment="Left" Height="419" Margin="10,20,0,0" VerticalAlignment="Top" Width="393">
+            <Grid HorizontalAlignment="Left" Height="381" Margin="10,10,-2,0" VerticalAlignment="Top" Width="373">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Title:" />
+                <Label Grid.Row="1" Grid.Column="0" Content="Author:" />
+                <Label Grid.Row="2" Grid.Column="0" Content="ISBN:" />
+                <Label Grid.Row="3" Grid.Column="0" Content="Pages:" />
+                <Label Grid.Row="4" Grid.Column="0" Content="Verlag:" />
+                <Label Grid.Row="5" Grid.Column="0" Content="Price:" />
+                <Label Grid.Row="6" Grid.Column="0" Content="Date:" />
+                <Label Grid.Row="7" Grid.Column="0" Content="Empfehlung:" />
+
+                <TextBlock TextAlignment="Center" Grid.Row="0" Grid.Column="1" Text="Harry Potter" Name="Title" Padding="4"/>
+                <TextBlock TextAlignment="Center" Grid.Row="1" Grid.Column="1" Text="J.K. Rowling" Padding="4"/>
+                <TextBlock TextAlignment="Center" Grid.Row="2" Grid.Column="1" Text="12345678901" Padding="4"/>
+                <TextBlock TextAlignment="Center" Grid.Row="3" Grid.Column="1" Text="355" Padding="4"/>
+                <TextBlock TextAlignment="Center" Grid.Row="4" Grid.Column="1" Text="Bloomsbury" Padding="4"/>
+                <TextBlock TextAlignment="Center" Grid.Row="5" Grid.Column="1" Text="9,99 €" Padding="4"/>
+                <TextBlock TextAlignment="Center" Grid.Row="6" Grid.Column="1" Text="1997" Padding="4"/>
+                <TextBlock TextAlignment="Center" Grid.Row="7" Grid.Column="1" Text="Ja" Padding="4"/>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</Window>

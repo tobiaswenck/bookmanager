@@ -1,0 +1,15 @@
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\bin\Debug\BookManager.exe.config
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\bin\Debug\BookManager.exe
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\bin\Debug\BookManager.pdb
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\obj\Debug\BookManager.csprojResolveAssemblyReference.cache
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\obj\Debug\MainWindow.g.cs
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\obj\Debug\App.g.cs
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\obj\Debug\BookManager_MarkupCompile.cache
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\obj\Debug\BookManager_MarkupCompile.lref
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\obj\Debug\MainWindow.baml
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\obj\Debug\BookManager.g.resources
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\obj\Debug\BookManager.csproj.GenerateResource.Cache
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cache
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\obj\Debug\BookManager.exe
+C:\Users\TOWE6863\source\repos\Solution1\BookManager\obj\Debug\BookManager.pdb
