@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tw.bookmanager.model", "tw.bookmanager.model", "{712E73BA-E1DF-4709-8397-1A850C4234AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tw.bookmanager.viewmodel", "tw.bookmanager.viewmodel", "{7FD5C390-5B24-4838-A755-3BF70F3085BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tw.bookmanager.ui", "tw.bookmanager.ui", "{F0E542E3-3CBC-496D-8A74-F04865BC1F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManager", "BookManager\BookManager.csproj", "{9204ABA0-783D-4057-B566-ACE10E1E6F19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9204ABA0-783D-4057-B566-ACE10E1E6F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9204ABA0-783D-4057-B566-ACE10E1E6F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9204ABA0-783D-4057-B566-ACE10E1E6F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9204ABA0-783D-4057-B566-ACE10E1E6F19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9204ABA0-783D-4057-B566-ACE10E1E6F19} = {F0E542E3-3CBC-496D-8A74-F04865BC1F4C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD2BCC44-9F6E-437F-BD35-6AEDBA7EBDC5}
+	EndGlobalSection
+EndGlobal
